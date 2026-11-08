@@ -1,0 +1,107 @@
+{
+  "status": "PASSED",
+  "software_validation_only": true,
+  "new_training_updates": 0,
+  "fictional_reports_only": true,
+  "clinical_performance_evaluated": false,
+  "checkpoint_checks": [
+    {
+      "sha256": "dd8495210db84e9888bed027de910ab12822f0299af3b40d1cc9cf643ca15201",
+      "parameters": 6377472,
+      "tensor_count": 256,
+      "dtype": "float32",
+      "finite_values_checked": true,
+      "training_seed": 42,
+      "global_step": 3140,
+      "training_data": "IU X-Ray only"
+    },
+    {
+      "sha256": "67f294c497928a91ed88fd015ff666fff72e32110d20f845bdfe71f6a73fc697",
+      "parameters": 6377472,
+      "tensor_count": 256,
+      "dtype": "float32",
+      "finite_values_checked": true,
+      "training_seed": 1337,
+      "global_step": 3140,
+      "training_data": "IU X-Ray only"
+    },
+    {
+      "sha256": "4ed261e7cf4c287ae29a3baf79c37938411dd1336fe0d5be479f5faab07b5cb2",
+      "parameters": 6377472,
+      "tensor_count": 256,
+      "dtype": "float32",
+      "finite_values_checked": true,
+      "training_seed": 2026,
+      "global_step": 3140,
+      "training_data": "IU X-Ray only"
+    }
+  ],
+  "real_CLIP_tokenizer_matches_frozen_study_packing": true,
+  "reference_sampler_comparison": {
+    "maximum_pixel_difference_0_255": 0,
+    "allowed_maximum_pixel_difference_0_255": 1,
+    "same_runtime_and_components": true,
+    "initial_noise_matches": true
+  },
+  "adapter_has_image_effect": true,
+  "paired_model_noise_verified": true,
+  "output_images": 6,
+  "outputs": [
+    {
+      "file": "long_seed_42.png",
+      "png_sha256": "2976b9dc94af1cff57672910d65e8c69746f123a6916f472ee922e5aed21646d"
+    },
+    {
+      "file": "frozen_reference_seed_42.png",
+      "png_sha256": "2976b9dc94af1cff57672910d65e8c69746f123a6916f472ee922e5aed21646d"
+    },
+    {
+      "file": "base_without_adapter.png",
+      "png_sha256": "dfc9ff922d1731f3c0d233bbdc7417c4c8a13aa1a5b9e1adf1edfc9c2b28b71c"
+    },
+    {
+      "file": "long_seed_1337.png",
+      "png_sha256": "73358905e92e9a340d7cfae3328fc8ca335a8af6dce34dfa0e7545e972d88148"
+    },
+    {
+      "file": "long_seed_2026.png",
+      "png_sha256": "5a2ed2b828fb09d7aeb5fa7a11d9c6764a4225f6f586626ef72765bd521c8110"
+    },
+    {
+      "file": "short_seed_42.png",
+      "png_sha256": "969aa8fa0a65f4bf59f1f55bd27943f93fd65bedbfac426124db920d807514c7"
+    }
+  ],
+  "runtime": {
+    "python": "3.13.16",
+    "packages": {
+      "torch": "2.14.1+cu130",
+      "diffusers": "0.36.0",
+      "transformers": "4.57.3",
+      "peft": "0.18.0",
+      "accelerate": "1.12.0",
+      "huggingface-hub": "0.36.0",
+      "safetensors": "0.7.0",
+      "numpy": "2.1.3",
+      "pillow": "11.3.0"
+    },
+    "device": "cuda",
+    "gpu": "Tesla T4",
+    "precision": "bfloat16",
+    "base_revision": "451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
+    "tf32_allowed": false,
+    "cross_hardware_bitwise_equivalence_guaranteed": false
+  },
+  "long_report_windows": 4,
+  "short_report_windows": 1,
+  "models_tested": 3,
+  "elapsed_seconds": 269.958063064,
+  "notebook_setup_revision": 2,
+  "completed_processes": [
+    {
+      "stage": "generation",
+      "return_code": 0,
+      "log_file": "generation.log"
+    }
+  ]
+}

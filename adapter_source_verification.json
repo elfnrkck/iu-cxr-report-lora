@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "seed": 42,
+      "tensor_count": 256,
+      "parameters": 6377472,
+      "sha256": "dd8495210db84e9888bed027de910ab12822f0299af3b40d1cc9cf643ca15201",
+      "inference_files_match_paper_checkpoint_record": true,
+      "no_MIMIC_continuation_updates": true
+    },
+    {
+      "seed": 1337,
+      "tensor_count": 256,
+      "parameters": 6377472,
+      "sha256": "67f294c497928a91ed88fd015ff666fff72e32110d20f845bdfe71f6a73fc697",
+      "inference_files_match_paper_checkpoint_record": true,
+      "no_MIMIC_continuation_updates": true
+    },
+    {
+      "seed": 2026,
+      "tensor_count": 256,
+      "parameters": 6377472,
+      "sha256": "4ed261e7cf4c287ae29a3baf79c37938411dd1336fe0d5be479f5faab07b5cb2",
+      "inference_files_match_paper_checkpoint_record": true,
+      "no_MIMIC_continuation_updates": true
+    }
+  ],
+  "GPU_generation_tested_here": false
+}

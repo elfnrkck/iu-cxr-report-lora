@@ -1,0 +1,19 @@
+test_empty_input_rejected (test_conditioning.ConditioningTests.test_empty_input_rejected) ... ok
+test_html_normalization_matches_two_pass_policy (test_conditioning.ConditioningTests.test_html_normalization_matches_two_pass_policy) ... ok
+test_long_report_retains_all_tokens_and_finding_at_end (test_conditioning.ConditioningTests.test_long_report_retains_all_tokens_and_finding_at_end) ... ok
+test_same_packing_as_frozen_study_function (test_conditioning.ConditioningTests.test_same_packing_as_frozen_study_function) ... ok
+test_unconditional_sequence_has_same_window_count (test_conditioning.ConditioningTests.test_unconditional_sequence_has_same_window_count) ... ok
+test_window_limit_rejects_instead_of_truncating (test_conditioning.ConditioningTests.test_window_limit_rejects_instead_of_truncating) ... ok
+test_wrong_tokenizer_rejected (test_conditioning.ConditioningTests.test_wrong_tokenizer_rejected) ... ok
+test_changed_weight_bytes_rejected (test_integrity.IntegrityTests.test_changed_weight_bytes_rejected) ... ok
+test_hub_cache_symlink_is_explicit_and_still_hash_checked (test_integrity.IntegrityTests.test_hub_cache_symlink_is_explicit_and_still_hash_checked) ... ok
+test_nonfinite_values_rejected (test_integrity.IntegrityTests.test_nonfinite_values_rejected) ... ok
+test_overlapping_storage_rejected (test_integrity.IntegrityTests.test_overlapping_storage_rejected) ... ok
+test_path_escape_rejected (test_integrity.IntegrityTests.test_path_escape_rejected) ... ok
+test_safe_tensor_header_and_values (test_integrity.IntegrityTests.test_safe_tensor_header_and_values) ... ok
+test_wrong_parameter_count_rejected (test_integrity.IntegrityTests.test_wrong_parameter_count_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.007s
+
+OK

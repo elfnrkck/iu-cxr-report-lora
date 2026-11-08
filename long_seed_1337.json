@@ -1,0 +1,47 @@
+{
+  "release": "0.1.0rc1",
+  "training_data": "IU X-Ray only",
+  "training_seed": 1337,
+  "adapter_enabled": true,
+  "adapter_sha256": "67f294c497928a91ed88fd015ff666fff72e32110d20f845bdfe71f6a73fc697",
+  "generation_seed": 202601,
+  "initial_cpu_noise_sha256": "2f135eb663cce21a26ec47e0c3a7149b3a96fa56ca9fc13059e8663811b73b48",
+  "steps": 30,
+  "guidance_scale": 7.5,
+  "eta": 0.0,
+  "resolution": [
+    512,
+    512
+  ],
+  "content_tokens": 203,
+  "CLIP_windows": 4,
+  "conditioning_positions": 308,
+  "tokens_truncated": 0,
+  "token_ids_sha256": "1fec50807b3b6aec68e04b5f3b32bf978e7d1c0b46369e92494e8d87dd5ce971",
+  "normalized_report_sha256": "7cf925202f97dd44196abc4c95a01b4edee62b932eba14488cd0af91e4b9b24a",
+  "elapsed_seconds": 31.50053118900007,
+  "runtime": {
+    "python": "3.13.16",
+    "packages": {
+      "torch": "2.14.1+cu130",
+      "diffusers": "0.36.0",
+      "transformers": "4.57.3",
+      "peft": "0.18.0",
+      "accelerate": "1.12.0",
+      "huggingface-hub": "0.36.0",
+      "safetensors": "0.7.0",
+      "numpy": "2.1.3",
+      "pillow": "11.3.0"
+    },
+    "device": "cuda",
+    "gpu": "Tesla T4",
+    "precision": "bfloat16",
+    "base_revision": "451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
+    "tf32_allowed": false,
+    "cross_hardware_bitwise_equivalence_guaranteed": false
+  },
+  "synthetic_image": true,
+  "clinical_accuracy_measured": false,
+  "sampler_defaults_match_paper": true,
+  "png_sha256": "73358905e92e9a340d7cfae3328fc8ca335a8af6dce34dfa0e7545e972d88148"
+}

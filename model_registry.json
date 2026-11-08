@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "release": "0.1.0rc1",
+  "default_training_seed": 42,
+  "training_data": "IU X-Ray only",
+  "MIMIC_training": false,
+  "models": {
+    "42": {
+      "weights": "seed_42/unet_adapter.safetensors",
+      "config": "seed_42/unet_config/adapter_config.json",
+      "state": "seed_42/state.json",
+      "files_sha256": {
+        "seed_42/state.json": "db72f687f9e778da467adadd93e2d10415a304e75ee245b89056e2da93de4eb6",
+        "seed_42/unet_adapter.safetensors": "dd8495210db84e9888bed027de910ab12822f0299af3b40d1cc9cf643ca15201",
+        "seed_42/unet_config/adapter_config.json": "098c900213d82d54f900a43646a4c88cb70790a16a5a5ecc1353c38a9765e118"
+      }
+    },
+    "1337": {
+      "weights": "seed_1337/unet_adapter.safetensors",
+      "config": "seed_1337/unet_config/adapter_config.json",
+      "state": "seed_1337/state.json",
+      "files_sha256": {
+        "seed_1337/state.json": "4f94272b14f0faa2227329839d8f5c7ec395375067e2171e572e9117a199aab0",
+        "seed_1337/unet_adapter.safetensors": "67f294c497928a91ed88fd015ff666fff72e32110d20f845bdfe71f6a73fc697",
+        "seed_1337/unet_config/adapter_config.json": "6466729b96c8769f86576b79231afd1b70d7c41888e3c6808839a4a170d5994e"
+      }
+    },
+    "2026": {
+      "weights": "seed_2026/unet_adapter.safetensors",
+      "config": "seed_2026/unet_config/adapter_config.json",
+      "state": "seed_2026/state.json",
+      "files_sha256": {
+        "seed_2026/state.json": "ef16786bebefab595abeb6f0aa7e17113c0e473bc9faf8e5a3cce13dd7be28ce",
+        "seed_2026/unet_adapter.safetensors": "4ed261e7cf4c287ae29a3baf79c37938411dd1336fe0d5be479f5faab07b5cb2",
+        "seed_2026/unet_config/adapter_config.json": "07c5f27de5bcd1223913f7d5d9befbc99edbf01e25c2781a33a3e167e5cec25e"
+      }
+    }
+  }
+}

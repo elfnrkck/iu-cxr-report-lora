@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this research software. Manuscript and confirmed author metadata will be added when available."
+title: "IU-CXR Report LoRA: full-report synthetic chest radiograph generation"
+version: 0.1.0rc1
+type: software
+license: MIT
+authors:
+  - name: "IU-CXR Report LoRA contributors"
+repository-code: "https://github.com/elfnrkck/iu-cxr-report-lora"
+url: "https://github.com/elfnrkck/iu-cxr-report-lora"
+abstract: "Inference software is MIT; separately distributed trained adapters have CreativeML Open RAIL-M terms."

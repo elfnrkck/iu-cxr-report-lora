@@ -1,0 +1,32 @@
+{
+  "version": "0.1.0rc1",
+  "stage": "source_prepared_upload_blocked",
+  "prepared_date_utc": "2026-11-08",
+  "training_source": "IU X-Ray only",
+  "MIMIC_trained_weights_included": false,
+  "source_data_included": false,
+  "fictional_reports_only": true,
+  "original_adapter_hashes_match_frozen_study_records": true,
+  "all_three_real_adapter_loads_passed_CPU": true,
+  "real_tokenizer_matches_study_packing": true,
+  "unit_tests_passed": 14,
+  "GPU_generation_tested_here": false,
+  "GPU_generation_tested_in_user_Colab": true,
+  "GPU_software_acceptance": "PASSED",
+  "GPU_software_acceptance_evidence": "verification/colab_acceptance/independent_verification.json",
+  "GPU_reported_by_Colab": "Tesla T4",
+  "reference_sampler_pixel_difference_seed_42_long_fixture": 0,
+  "cross_hardware_equivalence_established": false,
+  "new_training_updates": 0,
+  "published_to_GitHub": false,
+  "published_to_Hugging_Face": false,
+  "public_repository_URLs": {
+    "source_code": "https://github.com/elfnrkck/iu-cxr-report-lora",
+    "model_weights": null
+  },
+  "DOI": null,
+  "model_weights_in_this_repository": false,
+  "public_model_weight_download_available": false,
+  "generated_PNG_files_in_this_repository": false,
+  "source_content_upload_status": "BLOCKED_BY_GITHUB_403_RESOURCE_NOT_ACCESSIBLE_BY_INTEGRATION"
+}

@@ -1,0 +1,11 @@
+{
+  "actual_conditioning_chunks": 4,
+  "actual_conditioning_ids_sha256": "1fec50807b3b6aec68e04b5f3b32bf978e7d1c0b46369e92494e8d87dd5ce971",
+  "initial_cpu_noise_sha256": "2f135eb663cce21a26ec47e0c3a7149b3a96fa56ca9fc13059e8663811b73b48",
+  "initial_noise_shared_across_cases_and_models_for_each_generation_seed": true,
+  "pixel_std_0_1": 0.14431972801685333,
+  "low_variance_review_flag": false,
+  "technical_flags_do_not_exclude_or_select_images": true,
+  "clinical_accuracy_evaluated": false,
+  "png_sha256": "2976b9dc94af1cff57672910d65e8c69746f123a6916f472ee922e5aed21646d"
+}

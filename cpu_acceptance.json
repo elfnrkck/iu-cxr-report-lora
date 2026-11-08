@@ -1,0 +1,95 @@
+{
+  "status": "PASSED",
+  "GPU_generation_tested_here": false,
+  "new_training_updates": 0,
+  "runtime": {
+    "python": "3.12.14",
+    "torch": "2.8.0+cpu",
+    "diffusers": "0.36.0",
+    "transformers": "4.57.3",
+    "peft": "0.18.0",
+    "numpy": "2.1.3",
+    "device": "cpu"
+  },
+  "real_tokenizer_comparison": {
+    "status": "PASSED",
+    "cases": [
+      {
+        "tokens": 12,
+        "windows": 1,
+        "preserved": true
+      },
+      {
+        "tokens": 367,
+        "windows": 6,
+        "preserved": true
+      },
+      {
+        "tokens": 10,
+        "windows": 1,
+        "preserved": true
+      },
+      {
+        "tokens": 15,
+        "windows": 1,
+        "preserved": true
+      },
+      {
+        "tokens": 408,
+        "windows": 7,
+        "preserved": true
+      },
+      {
+        "tokens": 203,
+        "windows": 4,
+        "preserved": true
+      },
+      {
+        "tokens": 30,
+        "windows": 1,
+        "preserved": true
+      }
+    ]
+  },
+  "real_architecture_adapter_loads": [
+    {
+      "sha256": "dd8495210db84e9888bed027de910ab12822f0299af3b40d1cc9cf643ca15201",
+      "parameters": 6377472,
+      "tensor_count": 256,
+      "dtype": "float32",
+      "finite_values_checked": true,
+      "training_seed": 42,
+      "global_step": 3140,
+      "training_data": "IU X-Ray only",
+      "loaded_tensor_values_match": true
+    },
+    {
+      "sha256": "67f294c497928a91ed88fd015ff666fff72e32110d20f845bdfe71f6a73fc697",
+      "parameters": 6377472,
+      "tensor_count": 256,
+      "dtype": "float32",
+      "finite_values_checked": true,
+      "training_seed": 1337,
+      "global_step": 3140,
+      "training_data": "IU X-Ray only",
+      "loaded_tensor_values_match": true
+    },
+    {
+      "sha256": "4ed261e7cf4c287ae29a3baf79c37938411dd1336fe0d5be479f5faab07b5cb2",
+      "parameters": 6377472,
+      "tensor_count": 256,
+      "dtype": "float32",
+      "finite_values_checked": true,
+      "training_seed": 2026,
+      "global_step": 3140,
+      "training_data": "IU X-Ray only",
+      "loaded_tensor_values_match": true
+    }
+  ],
+  "trainable_adapter_parameters": 6377472,
+  "base_architecture_from_pinned_config": true,
+  "base_weights_used": false,
+  "UNet_forward_executed": false,
+  "scope": "Real pinned UNet architecture and original LoRA bytes; uninitialized base tensors; no image generation.",
+  "elapsed_seconds": 9.69145381899989
+}

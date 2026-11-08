@@ -1,0 +1,34 @@
+{
+  "model_id": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+  "revision": "451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
+  "files": {
+    "unet/config.json": {
+      "sha256": "78f474de6bab3d893868f37be97b636ae65c0df3073ed3256ca458ff599b5f96",
+      "bytes": 743
+    },
+    "unet/diffusion_pytorch_model.safetensors": {
+      "sha256": "19da7aaa4b880e59d56843f1fcb4dd9b599c28a1d9d9af7c1143057c8ffae9f1",
+      "bytes": 3438167540
+    },
+    "text_encoder/config.json": {
+      "sha256": "845df614cb9327ae7bbea027316246fae917827407da6df13572e41b5f93b4cc",
+      "bytes": 617
+    },
+    "text_encoder/model.safetensors": {
+      "sha256": "d008943c017f0092921106440254dbbe00b6a285f7883ec8ba160c3faad88334",
+      "bytes": 492265874
+    },
+    "vae/config.json": {
+      "sha256": "786a7d21647ddea6a04b9675c03d3cb45e90a2f3c6da5fbda2c54ade040036de",
+      "bytes": 547
+    },
+    "vae/diffusion_pytorch_model.safetensors": {
+      "sha256": "a2b5134f4dbc140d9c11f11cba3233099e00af40f262f136c691fb7d38d2194c",
+      "bytes": 334643276
+    },
+    "scheduler/scheduler_config.json": {
+      "sha256": "699cce92eb7c122e2eb7dfdea78e6187fda76a5ed4a8e42319b85610e620e091",
+      "bytes": 308
+    }
+  }
+}
